@@ -1,0 +1,40 @@
+header{
+    background-color: #0047ab;
+}
+
+.navbar{
+    background-color:  #cbd9ea;
+    text-align: left;
+}
+
+.card{
+    background-color: #f3b600;
+    width: 400px;
+    height: 350px;
+    box-shadow: 3px 6px 8px 3px rgba(100, 100, 100, 0.3);
+    
+}
+
+.container{
+    padding-left: 300px;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    
+    
+}
+
+body{
+    background-color:  #cbd9ea;
+    
+}
+
+form, .alert{
+    margin-bottom: 0;
+}
+
+
+
+
+
+
+
