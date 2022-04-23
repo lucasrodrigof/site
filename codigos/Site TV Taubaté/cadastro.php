@@ -23,9 +23,11 @@
 
 <body>
     <header>
+      
       <nav class="navbar navbar-expand-lg navbar-light">
-          <img src="Bandeira_de_Taubaté.png" width="57" height="40" alt="">     
-          <a class="navbar-brand" >   
+      
+          <img src="Bandeira_de_Taubaté.png" width="70" height="40" alt="" style="padding-left: 10px">     
+          <a class="navbar-brand" style="padding-left: 5px">   
           RG Taubaté
           </a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#conteudoNavbarSuportado" aria-controls="conteudoNavbarSuportado" aria-expanded="false" aria-label="Alterna navegação">
@@ -57,7 +59,7 @@
               
             </ul>
           </div>
-          
+
       </nav>
     <header>
 
@@ -67,11 +69,16 @@
     <div class="card">
     <div class="card-body">
 
-    <form id="form-cadastro">
+    <form >
     <div class="mb-3">
     <h1>Cadastro Completo:</h1>
     <label class="form-label">Nome Completo:</label>
     <input type="text" class="form-control" id="nome" required>
+    </div>
+
+    <div class="mb-3">
+    <label class="form-label">E-mail:</label>
+    <input type="text" class="form-control" id="email">
     </div>
 
     <div class="mb-3">
@@ -87,6 +94,70 @@
     <div class="mb-3">
     <label class="form-label">CPF:</label>
     <input type="text" class="form-control" id="cpf">
+    </div>
+
+    <div class="mb-3">
+    <label for="cep" class="form-label">CEP:</label>
+		<input id="cep" type="text" class="form-control" required/>
+    </div>
+
+    <div class="mb-3">
+    <label for="endereco" class="form-label">Endereço:</label>
+		<input id="endereco" type="text" class="form-control" required/>
+    </div>
+
+    <div class="mb-3">
+    <label for="numero" class="form-label">Número:</label>
+		<input id="numero" type="text" class="form-control" required/>
+    </div>
+
+    <div class="mb-3">
+    <label for="complemento" class="form-label">Complemento:</label>
+		<input id="complemento" type="text" class="form-control"/>
+    </div>
+
+    <div class="mb-3">
+    <label for="bairro" class="form-label">Bairro:</label>
+		<input id="bairro" type="text" class="form-control" required/>
+    </div>
+
+    <div class="mb-3">
+    <label for="cidade" class="form-label">Cidade:</label>
+		<input id="cidade" type="text" class="form-control" required/>
+    </div>
+
+    <div class="mb-3">
+    <label for="estado" class="form-label">Estado:</label>
+		<select id="estado" class="form-control">
+      <option value="">Selecione uma opção...</option>
+			<option value="AC">Acre</option>
+			<option value="AL">Alagoas</option>
+			<option value="AP">Amapá</option>
+			<option value="AM">Amazonas</option>
+			<option value="BA">Bahia</option>
+			<option value="CE">Ceará</option>
+			<option value="DF">Distrito Federal</option>
+			<option value="ES">Espírito Santo</option>
+			<option value="GO">Goiás</option>
+			<option value="MA">Maranhão</option>
+			<option value="MT">Mato Grosso</option>
+			<option value="MS">Mato Grosso do Sul</option>
+			<option value="MG">Minas Gerais</option>
+			<option value="PA">Pará</option>
+			<option value="PB">Paraíba</option>
+			<option value="PR">Paraná</option>
+			<option value="PE">Pernambuco</option>
+			<option value="PI">Piauí</option>
+			<option value="RJ">Rio de Janeiro</option>
+			<option value="RN">Rio Grande do Norte</option>
+			<option value="RS">Rio Grande do Sul</option>
+			<option value="RO">Rondônia</option>
+			<option value="RR">Roraima</option>
+			<option value="SC">Santa Catarina</option>
+			<option value="SP">São Paulo</option>
+			<option value="SE">Sergipe</option>
+			<option value="TO">Tocantins</option>
+		</select>
     </div>
 
     <div class="form-group text-center">

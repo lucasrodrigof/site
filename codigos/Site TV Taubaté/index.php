@@ -1,3 +1,4 @@
+
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
@@ -24,8 +25,9 @@
 <body>
     <header>
       <nav class="navbar navbar-expand-lg navbar-light">
-          <img src="Bandeira_de_Taubaté.png" width="57" height="40" alt="">     
-          <a class="navbar-brand" >   
+        
+          <img src="Bandeira_de_Taubaté.png" width="70" height="40" alt="" style="padding-left: 10px">     
+          <a class="navbar-brand" style="padding-left: 5px">   
           RG Taubaté
           </a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#conteudoNavbarSuportado" aria-controls="conteudoNavbarSuportado" aria-expanded="false" aria-label="Alterna navegação">
@@ -68,9 +70,12 @@
     <div class="card-body">
       
 
-    <form id="form-cadastro">
+    <form method="POST" action="inicial.php">
     <div class="mb-4">
     <h1>Cadastro:</h1>
+
+    
+
     <label class="form-label">Celular:</label>
     <input type="text" class="form-control" id="celular" required>
     
@@ -83,12 +88,8 @@
     </div>
 
     <div class="form-group text-center">
-    <a class="btn btn-primary" href="cadastro.php">Enviar</a>
+    <input class="btn btn-primary" type="submit"></input>
     <button type="reset" class="btn btn-danger">Cancelar</button>
-    </div>
-
-    <div class="alert alert-danger d-none">
-    Preencha o campo <span id="campo-erro"></span>!
     </div>
     
 
